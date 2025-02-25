@@ -175,6 +175,8 @@ function VerificationForm({ id }: VerificationFormProps) {
 // Main page component
 export default function VerifyCode() {
   const searchParams = useSearchParams();
+  const email = searchParams?.get("email") || "";
+
   const id = searchParams.get('id');
 
   if (!id) {
