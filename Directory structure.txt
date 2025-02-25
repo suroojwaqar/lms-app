@@ -1,0 +1,210 @@
+Directory structure:
+└── kamran-mushtaq-lms-admin/
+    ├── README.md
+    ├── LICENSE
+    ├── components.json
+    ├── next.config.js
+    ├── next.config.mjs
+    ├── package.json
+    ├── postcss.config.mjs
+    ├── tailwind.config.ts
+    ├── tsconfig.json
+    ├── .eslintrc.json
+    ├── public/
+    │   ├── images/
+    │   │   └── index.js
+    │   └── registry/
+    │       └── shadcn-sidebar.json
+    ├── registry/
+    │   ├── index.ts
+    │   ├── registry-components.ts
+    │   └── schema.ts
+    ├── screenshots/
+    ├── scripts/
+    │   └── build-registry.ts
+    └── src/
+        ├── app/
+        │   ├── globals.css
+        │   ├── layout.tsx
+        │   ├── not-found.tsx
+        │   ├── page.tsx
+        │   ├── user-management.zip
+        │   ├── (admin-panel)/
+        │   │   ├── layout.tsx
+        │   │   ├── attribute-type/
+        │   │   │   ├── AttributeModal.tsx
+        │   │   │   ├── inColumns.tsx
+        │   │   │   └── page.tsx
+        │   │   ├── attributes/
+        │   │   │   └── [id]/
+        │   │   │       ├── AttributeModal.tsx
+        │   │   │       ├── attributeColumns.tsx
+        │   │   │       └── page.tsx
+        │   │   ├── section/
+        │   │   │   ├── SectionModal.tsx
+        │   │   │   ├── page.tsx
+        │   │   │   └── sectionColumns.tsx
+        │   │   └── user-management/
+        │   │       ├── UserModal.tsx
+        │   │       ├── page.tsx
+        │   │       ├── userColumns.tsx
+        │   │       └── roles/
+        │   │           ├── PermissionTable.tsx
+        │   │           ├── RoleList.tsx
+        │   │           ├── RoleManagement.tsx
+        │   │           ├── api.ts
+        │   │           ├── data.ts
+        │   │           ├── page.tsx
+        │   │           ├── role-form.tsx
+        │   │           ├── role.ts
+        │   │           ├── section.ts
+        │   │           └── types/
+        │   │               ├── permission.tsx
+        │   │               ├── role.tsx
+        │   │               └── section.tsx
+        │   ├── (demo)/
+        │   │   ├── layout.tsx
+        │   │   ├── account/
+        │   │   │   └── page.tsx
+        │   │   ├── categories/
+        │   │   │   └── page.tsx
+        │   │   ├── dashboard/
+        │   │   │   └── page.tsx
+        │   │   ├── posts/
+        │   │   │   ├── page.tsx
+        │   │   │   └── new/
+        │   │   │       └── page.tsx
+        │   │   ├── tags/
+        │   │   │   └── page.tsx
+        │   │   └── users/
+        │   │       └── page.tsx
+        │   ├── forgot-password/
+        │   │   └── page.tsx
+        │   ├── login/
+        │   │   └── page.tsx
+        │   ├── register/
+        │   │   ├── page copy.tsx
+        │   │   └── page.tsx
+        │   ├── reset-password/
+        │   │   └── page.tsx
+        │   ├── student-information/
+        │   │   ├── MoreInformation.tsx
+        │   │   └── page.tsx
+        │   └── verify-code/
+        │       └── page.tsx
+        ├── components/
+        │   ├── GlobalSearch.tsx
+        │   ├── ProtectedRoute.tsx
+        │   ├── VerifyCode.tsx
+        │   ├── dashboard-area-chart.tsx
+        │   ├── dashboard-bar-chart.tsx
+        │   ├── dashboard-horizontal-bar-chart.tsx
+        │   ├── dashboard-pie-chart.tsx
+        │   ├── dashboard-recent.tsx
+        │   ├── dashboard-single-card.tsx
+        │   ├── forget-form.tsx
+        │   ├── forgot-password-form.tsx
+        │   ├── login-form.tsx
+        │   ├── login-sidebar.tsx
+        │   ├── logo-symbol.tsx
+        │   ├── logo-text.tsx
+        │   ├── mode-toggle.tsx
+        │   ├── prealoader.tsx
+        │   ├── registration-form.tsx
+        │   ├── reset-password-form.tsx
+        │   ├── admin-panel/
+        │   │   ├── admin-panel-layout.tsx
+        │   │   ├── collapse-menu-button.tsx
+        │   │   ├── content-layout.tsx
+        │   │   ├── footer.tsx
+        │   │   ├── menu.tsx
+        │   │   ├── navbar.tsx
+        │   │   ├── sheet-menu.tsx
+        │   │   ├── sidebar-toggle.tsx
+        │   │   ├── sidebar.tsx
+        │   │   └── user-nav.tsx
+        │   ├── data-table/
+        │   │   ├── DataTableColumnHeader.tsx
+        │   │   ├── DataTablePagination.tsx
+        │   │   └── InDataTable.tsx
+        │   ├── demo/
+        │   │   └── placeholder-content.tsx
+        │   ├── layout/
+        │   │   └── Sidebar.tsx
+        │   ├── providers/
+        │   │   └── theme-provider.tsx
+        │   └── ui/
+        │       ├── accordion.tsx
+        │       ├── alert-dialog.tsx
+        │       ├── alert.tsx
+        │       ├── aspect-ratio.tsx
+        │       ├── avatar.tsx
+        │       ├── badge.tsx
+        │       ├── breadcrumb.tsx
+        │       ├── button.tsx
+        │       ├── calendar.tsx
+        │       ├── card.tsx
+        │       ├── carousel.tsx
+        │       ├── chart.tsx
+        │       ├── checkbox.tsx
+        │       ├── collapsible.tsx
+        │       ├── command.tsx
+        │       ├── context-menu.tsx
+        │       ├── dialog.tsx
+        │       ├── drawer.tsx
+        │       ├── dropdown-menu.tsx
+        │       ├── form.tsx
+        │       ├── hover-card.tsx
+        │       ├── input-otp.tsx
+        │       ├── input.tsx
+        │       ├── label.tsx
+        │       ├── menubar.tsx
+        │       ├── navigation-menu.tsx
+        │       ├── pagination.tsx
+        │       ├── popover.tsx
+        │       ├── progress.tsx
+        │       ├── radio-group.tsx
+        │       ├── resizable.tsx
+        │       ├── scroll-area.tsx
+        │       ├── select.tsx
+        │       ├── separator.tsx
+        │       ├── sheet.tsx
+        │       ├── sidebar.tsx
+        │       ├── skeleton.tsx
+        │       ├── slider.tsx
+        │       ├── sonner.tsx
+        │       ├── switch.tsx
+        │       ├── table.tsx
+        │       ├── tabs.tsx
+        │       ├── textarea.tsx
+        │       ├── toast.tsx
+        │       ├── toaster.tsx
+        │       ├── toggle-group.tsx
+        │       ├── toggle.tsx
+        │       └── tooltip.tsx
+        ├── data/
+        │   └── userData.ts
+        ├── hooks/
+        │   ├── use-mobile.tsx
+        │   ├── use-sidebar.ts
+        │   ├── use-store.ts
+        │   └── use-toast.ts
+        ├── lib/
+        │   ├── db.ts
+        │   ├── menu-list.ts
+        │   ├── utils.ts
+        │   └── services/
+        │       └── userService.ts
+        ├── services/
+        │   └── attributes.service.ts
+        ├── types/
+        │   ├── attribute-type.ts
+        │   ├── attribute.ts
+        │   └── section.ts
+        └── utils/
+            ├── attribute-type-api.ts
+            ├── attributeService.ts
+            ├── auth.ts
+            ├── sectionApi.ts
+            ├── userApi.ts
+            └── verifyOTPapi.ts

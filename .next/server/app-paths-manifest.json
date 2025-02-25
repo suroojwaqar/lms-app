@@ -1,0 +1,10 @@
+{
+  "/(admin-panel)/user-management/roles/page": "app/(admin-panel)/user-management/roles/page.js",
+  "/(admin-panel)/user-management/page": "app/(admin-panel)/user-management/page.js",
+  "/(admin-panel)/chapters/page": "app/(admin-panel)/chapters/page.js",
+  "/(admin-panel)/lectures/page": "app/(admin-panel)/lectures/page.js",
+  "/(admin-panel)/attribute-type/page": "app/(admin-panel)/attribute-type/page.js",
+  "/(admin-panel)/section/page": "app/(admin-panel)/section/page.js",
+  "/(admin-panel)/classes/page": "app/(admin-panel)/classes/page.js",
+  "/(admin-panel)/subjects/page": "app/(admin-panel)/subjects/page.js"
+}
