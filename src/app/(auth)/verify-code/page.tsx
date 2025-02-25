@@ -9,7 +9,7 @@ export default function LoginPage() {
       {/* Login Left Section */}
       <LoginSidebar />
 
-      {/* Right Section */}
+      {/* Right Section test */}
       <div className="w-full lg:w-1/2 p-8 flex items-center justify-center">
         <div className="w-full max-w-md space-y-8">
           <VerifyCode />
